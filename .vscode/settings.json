@@ -1,0 +1,52 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "db-project.c1uyuoeea24i.eu-north-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "firstdatabase",
+            "database": "db-project",
+            "username": "admin",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "database-1.c1uyuoeea24i.eu-north-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "trynumerodva",
+            "username": "admin",
+            "database": "databaseproject",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "database-2.c1uyuoeea24i.eu-north-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "db-project",
+            "database": "sampleDB",
+            "username": "admin",
+            "askForPassword": true
+        }
+    ],
+    "Lua.diagnostics.globals": [
+        "love"
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-global"
+    ]
+}
